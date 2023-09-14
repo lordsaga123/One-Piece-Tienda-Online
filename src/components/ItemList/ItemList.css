@@ -1,0 +1,14 @@
+.itemListContainer {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+
+.item {
+    max-width: 300px;
+    margin: 1rem;
+}
