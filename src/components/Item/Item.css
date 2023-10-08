@@ -1,5 +1,6 @@
+/* Item.css */
 .cardProducto {
-    background-color: #06ebf7;
+    background-color: var(--clr-main);
     border-radius: 10px;
     width: 15rem;
     padding: 1rem;
@@ -7,21 +8,47 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.infoProducto{
+  }
+  
+  .infoProducto {
     padding: 1rem;
+    color: rgb(8, 106, 16);
     margin: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.imgProducto {
+  }
+  .info__Base{
+    background-color: rgba(218, 239, 245, 0.886);
+    padding: 10px;
+    border-radius: 15px;
+  }
+  
+  .imgProducto {
     border-radius: 5px;
     width: 100%;
     object-fit: contain;
     transition: transform 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-}
-
-.imgProducto:hover{
+  }
+  
+  .imgProducto:hover {
     transform: scale(1.05);
-}
+  }
+  
+  /* Estilos para los enlaces (links) como botones */
+  .infoProducto a {
+    text-decoration: none;
+    background-color: var(--clr-main-light);
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 15px;
+    margin-top: 0.5rem;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .infoProducto a:hover {
+    background-color: rgb(0, 170, 255);
+    color: white; 
+  }
+  

@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+# One Piece Tienda Online
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+¡Bienvenido a la Tienda Online de One Piece! Esta aplicación web te permite explorar una selección de productos inspirados en el emocionante mundo de One Piece y realizar compras en línea. Utiliza tecnologías modernas como React, Firebase y React Router para brindarte una experiencia de compra cómoda y emocionante.
 
-## Available Scripts
+## Descripción General
 
-In the project directory, you can run:
+La Tienda Online de One Piece es una aplicación web construida con React que ofrece las siguientes características y funcionalidades:
 
-### `npm start`
+- **Exploración de Productos:** Los usuarios pueden navegar a través de una lista de productos disponibles en la tienda. Cada producto se muestra con su nombre, precio, descripción y una imagen relacionada.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Carrito de Compras:** Los usuarios pueden agregar productos a su carrito de compras con un contador interactivo para ajustar la cantidad deseada.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Vista del Carrito:** Los usuarios pueden ver el contenido actual de su carrito de compras en cualquier momento, incluida la lista de productos, la cantidad total y el precio total.
 
-### `npm test`
+- **Finalización de Compra:** Una vez que los usuarios están listos para realizar su compra, pueden proceder a la finalización de la compra, proporcionando información de contacto y realizando el pedido.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Historial de Órdenes:** Los detalles de las órdenes completadas se almacenan en Firebase y se pueden acceder posteriormente en la sección de historial de órdenes.
 
-### `npm run build`
+## Tecnologías Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+One Piece Tienda Online se basa en las siguientes tecnologías clave:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **React:** El frontend de la aplicación se desarrolla utilizando React, una popular biblioteca de JavaScript para construir interfaces de usuario interactivas.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Firebase:** Firebase se utiliza para el almacenamiento de datos en tiempo real y la gestión de autenticación de usuarios. También se usa Firestore para almacenar detalles de productos y órdenes.
 
-### `npm run eject`
+- **React Router:** React Router facilita la navegación entre diferentes vistas de la aplicación, lo que permite una experiencia de usuario fluida y coherente.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Instalación
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si deseas ejecutar la Tienda One Piece en tu entorno local de desarrollo, sigue estos pasos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Clona este repositorio en tu máquina local.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. Abre el proyecto en Visual Studio Code o tu editor de código preferido.
 
-## Learn More
+3. Instala las dependencias del proyecto utilizando npm (asegúrate de tener npm instalado): npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Abre tu navegador web y ve a http://localhost:3000 para ver la Tienda Online de One Piece en acción.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Licencia
+Este proyecto está bajo la Licencia MIT.

@@ -1,0 +1,32 @@
+.imgCarrito > ion-icon{
+    padding-right: 1rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--clr-main);
+    color: #510af5f5;
+    border: none;
+    border-radius: 5px;
+    font-size: 2.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.imgCarrito > ion-icon:hover{
+    transform: scale(1.25);
+    border-radius: 50px;
+    background-color: var(--clr-main-light)
+}
+.nav-button {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background-color: var(--clr-main);
+    color: #510af5f5;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-button:hover {
+    background-color: var(--clr-main-light);
+  }
+  

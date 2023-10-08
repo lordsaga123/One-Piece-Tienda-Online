@@ -5,35 +5,36 @@ import "./NavBar.css";
 const NavBar = () => {
   return (
     <header>
-    <div className="navbar">
-      <Link to="/">
-        <h1>One Piece Tienda Online</h1>
-      </Link>
+      <div className="navbar">
+        <Link to="/">
+          <h1 className="logo__Tienda">One Piece Tienda Online</h1>
+        </Link>
         <nav>
-            <ul className="menu">
+          <ul className="menu">
             <li>
-                <NavLink to= "/categoria/1"> Remeras </NavLink>
+              <NavLink to="/categoria/1" className="nav-button">Remeras</NavLink>
             </li>
             <li>
-                <NavLink to= "/categoria/2"> Posters </NavLink>
+              <NavLink to="/categoria/2" className="nav-button">Posters</NavLink>
             </li>
             <li>
-                <NavLink to= "/categoria/3"> Figuras </NavLink>
+              <NavLink to="/categoria/3" className="nav-button">Figuras</NavLink>
             </li>
             <li>
-                <NavLink to= "/categoria/4"> Llaveros </NavLink>
+              <NavLink to="/categoria/4" className="nav-button">Llaveros</NavLink>
             </li>
             <li>
-                <NavLink to= "/categoria/5"> Tazas </NavLink>
+              <NavLink to="/categoria/5" className="nav-button">Tazas</NavLink>
             </li>
             <li>
-                <NavLink to= "/categoria/6"> Camperas </NavLink>
+              <NavLink to="/categoria/6" className="nav-button">Camperas</NavLink>
             </li>
-            </ul>
+          </ul>
         </nav>
         <CartWidget />
-    </div>
+      </div>
     </header>
-);
+  );
 };
+
 export default NavBar;

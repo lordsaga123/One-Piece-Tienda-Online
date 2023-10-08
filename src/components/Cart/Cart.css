@@ -1,0 +1,94 @@
+/* Cart.css */
+
+.cart-container {
+    background-color: #06ebf7;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .cart-container h2{
+    color: #0450ff;
+  }
+  .cart-container a{
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #06f025;
+    border: none;
+    border-radius: 15px;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  .cart-container a:hover {
+    background-color: #e1f905;
+  }
+  
+  .cart-empty {
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  .cart-items {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .cart-items h3 {
+    margin-top: 1rem;
+  }
+  
+  .cart-total {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+  .cart-actions {
+    margin-top: 1rem;
+  }
+  
+  .cart-actions button {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #f58544;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cart-actions button:hover {
+    background-color: #ee1212;
+  }
+  
+  .cart-actions a {
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #86f913;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .cart-actions a:hover {
+    background-color: #0afa06;
+  }
+  
